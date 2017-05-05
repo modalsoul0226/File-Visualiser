@@ -7,8 +7,6 @@ The pygame window is divided into two parts:
 * The treemap itself (a collection of colourful rectangles).
 * A text display along the bottom of the window, showing information about the currently selected rectangle, or nothing, if no rectangle is selected.
 
-
-![picture](/pygame_treemap.png)
 Every rectangle corresponds to one leaf (not of data_size zero) in the tree. If the whole tree has data_size zero (so no rectangles are returned by treemap), the entire screen should appear black.
 
 ## Visualiser: user events
